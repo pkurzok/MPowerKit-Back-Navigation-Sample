@@ -61,9 +61,10 @@
 
     <ItemGroup>
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
-        <PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)"/>
+        <PackageReference Include="CommunityToolkit.Maui" Version="12.3.0" />
+        <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.120"/>
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.5"/>
-        <PackageReference Include="MPowerKit.Navigation" Version="1.5.0" />
+        <ProjectReference Include="..\..\Navigation\MPowerKit.Navigation\MPowerKit.Navigation.csproj" />
     </ItemGroup>
 
 </Project>
